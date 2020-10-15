@@ -1,10 +1,11 @@
 require 'bundler'
 Bundler.require
 
+require_relative 'board'
 
 class Player
 
-  attr_accessor :name, :symbol, :coords
+  attr_accessor :name, :symbol
   
   def initialize(player_symbol_to_save)
     @symbol = player_symbol_to_save
@@ -13,7 +14,7 @@ class Player
   
 
   def ask_player_name
-    puts "Rentre le pseudo du joueur #{@symbol} : "
+    puts "Le joueur #{@symbol} est appelé à la barre ! Indique ton pseudo ci-dessous camarade."
     print "> "
     name = gets.chomp
   end
@@ -22,17 +23,12 @@ class Player
   def get_coordinates
     input = nil
     until input.is_a?(Integer) && (1..9).include?(input)
-    puts "C'est à ton tour #{self.name} !\nChoisis un chiffre entre 1 à 9 pour ajouter un #{self.symbol} à la grille."
+    puts "C'est à ton tour #{name} !\nChoisis un chiffre entre 1 à 9 pour ajouter un #{symbol} à la grille."
     print "> "
     input = gets.chomp.to_i
     end 
-    @coords = input
-    
+    coords = input
   end
 
-
-  # def is_location_available?(coords_case_idx)
-  #   @board_cases[coords_case_idx] == ""
-  # end
 
 end
