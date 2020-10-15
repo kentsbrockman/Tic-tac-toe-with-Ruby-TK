@@ -19,8 +19,9 @@ gem 'xpath'
 
 gem 'launchy'
 
-gem 'json', '~> 2.3', '>= 2.3.1'
-gem 'csv', '~> 3.1', '>= 3.1.7'
+gem 'json'
+gem 'csv'
+gem 'google_drive'
 
 # Optional
 # gem 'twitter'
@@ -28,5 +29,6 @@ gem 'csv', '~> 3.1', '>= 3.1.7'
 # gem 'titleize'
 # gem 'rubysl-shellwords'
 # gem 'fileutils'
-# gem 'solargraph'
-# gem 'google_drive'
+
+gem 'solargraph', group: :development
+gem 'tk'
