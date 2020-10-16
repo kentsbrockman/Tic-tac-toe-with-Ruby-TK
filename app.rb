@@ -11,15 +11,15 @@ require 'player'
 class Application
 
   def welcome
-    puts "-----------------------------------------------------------------------------------------------------\n"
+    puts "-------------------------------------------------------------------------------------------\n"
     sleep (1)
-    puts "│                    DAMN ! Bienvenue sur le Tic-Tac-Toe le plus hype du moment !                   │\n"
+    puts "│               DAMN ! Bienvenue sur le Tic-Tac-Toe le plus hype du moment !              │\n"
     sleep (1)
-    puts "│            Prépare-toi à mettre en place des grosses stratégies à base de X et de O...            │\n"
+    puts "│       Prépare-toi à mettre en place des grosses stratégies à base de X et de O...       │\n"
     sleep (1)
-    puts "│                                        100% POO compliant                                         │\n"
+    puts "│                                   100% POO compliant                                    │\n"
     sleep (1)
-    puts "-----------------------------------------------------------------------------------------------------\n"
+    puts "-------------------------------------------------------------------------------------------\n"
     puts "\n"
   end
 
@@ -29,9 +29,9 @@ class Application
     puts "C'était cool non ? On continue ? Y/N"
     print '> '
     input = gets.chomp
-    if input.downcase == 'y'
+    if input == 'Y'
       true
-    elsif input.downcase == 'n'
+    elsif input.downcase == 'N'
       false
     end
   end
@@ -47,9 +47,9 @@ class Application
       Tk.update
       my_game.play
       keep_playing = continue?
+      Tk.mainloop
     end
 
-    Tk.mainloop
 
   end
 
