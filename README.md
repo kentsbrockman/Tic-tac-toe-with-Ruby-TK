@@ -12,7 +12,13 @@ Bon, je ne vous cache pas qu'hier, avec le compatriote Martin, on s'est un peu a
 
 En principe, avec un petit `$bundle install`, tout devrait bien se passer.
 
-Mais si jamais le programme 'app.rb' ne s'exécute pas, la commande `$brew install tcl` devrait régler le truc easy !
+Mais si jamais le programme 'app.rb' ne s'exécute pas :
+
+Mac ==> la commande `$brew install tcl` devrait régler le truc easy !
+
+Windows ==> https://www.activestate.com/products/tcl/
+
+Ubuntu ==> `$sudo apt-get install libtcltk-ruby'
 
 Bonne fin de semaine à tous !
 

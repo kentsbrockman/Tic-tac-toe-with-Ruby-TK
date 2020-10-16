@@ -14,7 +14,7 @@ class Display
     @root.minsize(500,300)
 
     @canvas = TkCanvas.new(@root) do
-      place('x' => 0, 'y' => 0.0, 'height' => 300, 'width' => 300)
+      place('x' => 0, 'y' => 0, 'height' => 300, 'width' => 300)
     end
    
     #Line 1

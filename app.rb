@@ -3,10 +3,7 @@ Bundler.require
 
 $LOAD_PATH.unshift File.expand_path('lib', __dir__)
 
-require 'board'
 require 'game'
-require 'display'
-require 'player'
 
 class Application
 
@@ -46,10 +43,11 @@ class Application
       my_game = Game.new
       Tk.update
       my_game.play
+      Tk.update
       keep_playing = continue?
-      Tk.mainloop
     end
 
+    Tk.mainloop
 
   end
 
