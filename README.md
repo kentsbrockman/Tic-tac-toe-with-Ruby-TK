@@ -18,7 +18,7 @@ As part of [The Hacking Project bootcamp](https://www.thehackingproject.org/), w
 
 But hey, at the end of the day, I just thought "Why not doing something a bit different?"
 
-So, on top of a functional game program, you actually run it with **Ruby TK**, which brought quite a lot of ~~complexity~~ discoveries into the project.
+So, on top of running a functional game program, you actually see the outputs through **Ruby TK**, which brought quite a lot of ~~complexity~~ discoveries into the project.
 
 ---
 
