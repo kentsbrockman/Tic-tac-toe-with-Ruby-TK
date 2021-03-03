@@ -1,4 +1,4 @@
-# Tic-Tac-Toe with Ruby and TK
+# Tic-Tac-Toe in Ruby
 
 Hello dear devs!
 
@@ -30,11 +30,15 @@ Then:
 
 1/ Get the resource:
   - Download the repository
-  - OR `git clone https://github.com/kentsbrockman/Training_Ruby_Loops`
+  - OR `git clone https://github.com/kentsbrockman/TicTacToe-in-Ruby.git`
 
-2/ `cd Training_Ruby_Loops/lib`
+2/ Get to the root folder:
+  - `$ cd TicTacToe-in-Ruby`
 
-3/ `ruby [one of the 5 programs]`. For example, `ruby 00_hello.rb`.
+3/ Install the required Ruby gems:
+  - `$ bundle install`
+
+4/ `ruby [one of the 5 programs]`. For example, `ruby 00_hello.rb`.
 
 ---
 
