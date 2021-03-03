@@ -1,14 +1,50 @@
-# Yo les devs !
+# Tic-Tac-Toe with Ruby and TK
 
-Bienvenue sur notre version agile disruptive du Tic-Tac-Toe 🔥
+Hello dear devs!
 
-Ce programme a été entièrement réalisé en Ruby (thanks M. obvious!), avec des defs en long, en large et en travers. Et le programme est certifié 100% POO compliant bien évidemment !
+Welcome to the O.G program, a good old classic of the computer science and engineering schools...
+
+Tic-Tac-Toe 🔥
+
+This program has been entirely made in Ruby (thanks M. obvious!), with a variety of defs pretty much everywhere.
+
+It is also 100% Object-Oriented compliant of course!
 
 ---
 
-## Le petit truc en plus
+## The house specialty: Ruby TK
 
-Bon, je ne vous cache pas qu'hier, avec le compatriote Martin, on s'est un peu arraché les cheveux avec une techno surprise qui nous sert pendant le programme. Vous verrez rapidement de quoi il s'agit 😁
+As part of [The Hacking Project bootcamp](https://www.thehackingproject.org/), we didn't have to implement anything related to visual interface for the exercise. The idea was really to be able to run Tic-Tac-Toe games in the terminal.
+
+But hey, at the end of the day, I just thought "Why not doing something a bit different?"
+
+So, on top of a functional game program, you actually run it with **Ruby TK**, which brought quite a lot of ~~complexity~~ discoveries into the project.
+
+---
+
+## Setup
+
+To run this program locally, you want to [install the TK library](https://tkdocs.com/tutorial/install.html) first.
+
+Then:
+
+1/ Get the resource:
+  - Download the repository
+  - OR `git clone https://github.com/kentsbrockman/Training_Ruby_Loops`
+
+2/ `cd Training_Ruby_Loops/lib`
+
+3/ `ruby [one of the 5 programs]`. For example, `ruby 00_hello.rb`.
+
+---
+
+## Author
+
+[Quentin Plaud](https://github.com/kentsbrockman)
+
+---
+
+Have a great day, and enjoy the very infamous Mario pyramid!
 
 En principe, avec un petit `$bundle install`, tout devrait bien se passer.
 
