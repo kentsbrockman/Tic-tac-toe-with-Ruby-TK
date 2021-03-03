@@ -38,28 +38,15 @@ Then:
 3/ Install the required Ruby gems:
   - `$ bundle install`
 
-4/ `ruby [one of the 5 programs]`. For example, `ruby 00_hello.rb`.
+4/ Finally, run `ruby app.rb`.
 
 ---
 
-## Author
+## Authors
 
 [Quentin Plaud](https://github.com/kentsbrockman)
+[Martin Moradi](https://github.com/martinmoradi)
 
 ---
 
-Have a great day, and enjoy the very infamous Mario pyramid!
-
-En principe, avec un petit `$bundle install`, tout devrait bien se passer.
-
-Mais si jamais le programme 'app.rb' ne s'exécute pas :
-
-Mac ==> la commande `$brew install tcl` devrait régler le truc easy !
-
-Windows ==> https://www.activestate.com/products/tcl/
-
-Ubuntu ==> `$sudo apt-get install libtcltk-ruby'
-
-Bonne fin de semaine à tous !
-
-Martin MORADI & Quentin PLAUD
+Have a great day y'all!
